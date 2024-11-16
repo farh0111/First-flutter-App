@@ -1,0 +1,36 @@
+name: first_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ">=3.5.4 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Fonts Configuration
+  fonts:
+    - family: Lato
+      fonts:
+        - asset: fonts/Lato/Lato-Regular.ttf
+        - asset: fonts/Lato/Lato-Bold.ttf
+          weight: 700
+        - asset: fonts/Lato/Lato-Italic.ttf
+          style: italic
+
+  # Assets Configuration
+  assets:
+    - assets/images/image1.jpg
+    - assets/images/image2.jpg
+    - assets/images/image3.jpg
